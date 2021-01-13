@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "echo-bot-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/echoBot/EchoBotWebPart.js",
+          "manifest": "./src/webparts/echoBot/EchoBotWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EchoBotWebPartStrings": "lib/webparts/echoBot/loc/{locale}.js"
+  }
+}
